@@ -1,0 +1,810 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Sep 26 16:53:02 2019
+# Process ID: 935934
+# Current directory: /home/spsur2/smc_rv/smc_rv.runs/synth_1
+# Command line: vivado -log top.vds -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: /home/spsur2/smc_rv/smc_rv.runs/synth_1/top.vds
+# Journal file: /home/spsur2/smc_rv/smc_rv.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at /software/xilinx-2015/Vivado/2015.4/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+Command: synth_design -top top -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-1223] The version limit for your license is '2017.02' and will expire in -940 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 935951 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1074.305 ; gain = 141.918 ; free physical = 5304 ; free virtual = 13535
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:2]
+INFO: [Synth 8-638] synthesizing module 'delay4' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized0' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized0' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized1' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized1' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized2' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized2' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized3' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized3' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized4' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized4' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized5' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized5' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized6' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized6' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized7' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized7' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'delay4__parameterized8' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'delay4__parameterized8' (1#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:103]
+INFO: [Synth 8-638] synthesizing module 'picorv32_axi' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:2511]
+	Parameter ENABLE_COUNTERS bound to: 1'b1 
+	Parameter ENABLE_COUNTERS64 bound to: 1'b1 
+	Parameter ENABLE_REGS_16_31 bound to: 1'b1 
+	Parameter ENABLE_REGS_DUALPORT bound to: 1'b1 
+	Parameter TWO_STAGE_SHIFT bound to: 1'b1 
+	Parameter BARREL_SHIFTER bound to: 1'b0 
+	Parameter TWO_CYCLE_COMPARE bound to: 1'b0 
+	Parameter TWO_CYCLE_ALU bound to: 1'b1 
+	Parameter COMPRESSED_ISA bound to: 1'b0 
+	Parameter CATCH_MISALIGN bound to: 1'b1 
+	Parameter CATCH_ILLINSN bound to: 1'b1 
+	Parameter ENABLE_PCPI bound to: 1'b0 
+	Parameter ENABLE_MUL bound to: 1'b0 
+	Parameter ENABLE_FAST_MUL bound to: 1'b0 
+	Parameter ENABLE_DIV bound to: 1'b0 
+	Parameter ENABLE_IRQ bound to: 1'b0 
+	Parameter ENABLE_IRQ_QREGS bound to: 1'b1 
+	Parameter ENABLE_IRQ_TIMER bound to: 1'b1 
+	Parameter ENABLE_TRACE bound to: 1'b0 
+	Parameter REGS_INIT_ZERO bound to: 1'b0 
+	Parameter MASKED_IRQ bound to: 0 - type: integer 
+	Parameter LATCHED_IRQ bound to: -1 - type: integer 
+	Parameter PROGADDR_RESET bound to: 0 - type: integer 
+	Parameter PROGADDR_IRQ bound to: 16 - type: integer 
+	Parameter STACKADDR bound to: -1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'picorv32_axi_adapter' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:2725]
+INFO: [Synth 8-256] done synthesizing module 'picorv32_axi_adapter' (2#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:2725]
+INFO: [Synth 8-638] synthesizing module 'picorv32' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:62]
+	Parameter ENABLE_COUNTERS bound to: 1'b1 
+	Parameter ENABLE_COUNTERS64 bound to: 1'b1 
+	Parameter ENABLE_REGS_16_31 bound to: 1'b1 
+	Parameter ENABLE_REGS_DUALPORT bound to: 1'b1 
+	Parameter LATCHED_MEM_RDATA bound to: 1'b0 
+	Parameter TWO_STAGE_SHIFT bound to: 1'b1 
+	Parameter BARREL_SHIFTER bound to: 1'b0 
+	Parameter TWO_CYCLE_COMPARE bound to: 1'b0 
+	Parameter TWO_CYCLE_ALU bound to: 1'b1 
+	Parameter COMPRESSED_ISA bound to: 1'b0 
+	Parameter CATCH_MISALIGN bound to: 1'b1 
+	Parameter CATCH_ILLINSN bound to: 1'b1 
+	Parameter ENABLE_PCPI bound to: 1'b0 
+	Parameter ENABLE_MUL bound to: 1'b0 
+	Parameter ENABLE_FAST_MUL bound to: 1'b0 
+	Parameter ENABLE_DIV bound to: 1'b0 
+	Parameter ENABLE_IRQ bound to: 1'b0 
+	Parameter ENABLE_IRQ_QREGS bound to: 1'b1 
+	Parameter ENABLE_IRQ_TIMER bound to: 1'b1 
+	Parameter ENABLE_TRACE bound to: 1'b0 
+	Parameter REGS_INIT_ZERO bound to: 1'b0 
+	Parameter MASKED_IRQ bound to: 0 - type: integer 
+	Parameter LATCHED_IRQ bound to: -1 - type: integer 
+	Parameter PROGADDR_RESET bound to: 0 - type: integer 
+	Parameter PROGADDR_IRQ bound to: 16 - type: integer 
+	Parameter STACKADDR bound to: -1 - type: integer 
+	Parameter irq_timer bound to: 0 - type: integer 
+	Parameter irq_ebreak bound to: 1 - type: integer 
+	Parameter irq_buserror bound to: 2 - type: integer 
+	Parameter irqregs_offset bound to: 32 - type: integer 
+	Parameter regfile_size bound to: 32 - type: integer 
+	Parameter regindex_bits bound to: 5 - type: integer 
+	Parameter WITH_PCPI bound to: 1'b0 
+	Parameter TRACE_BRANCH bound to: 36'b000100000000000000000000000000000000 
+	Parameter TRACE_ADDR bound to: 36'b001000000000000000000000000000000000 
+	Parameter TRACE_IRQ bound to: 36'b100000000000000000000000000000000000 
+	Parameter cpu_state_trap bound to: 8'b10000000 
+	Parameter cpu_state_fetch bound to: 8'b01000000 
+	Parameter cpu_state_ld_rs1 bound to: 8'b00100000 
+	Parameter cpu_state_ld_rs2 bound to: 8'b00010000 
+	Parameter cpu_state_exec bound to: 8'b00001000 
+	Parameter cpu_state_shift bound to: 8'b00000100 
+	Parameter cpu_state_stmem bound to: 8'b00000010 
+	Parameter cpu_state_ldmem bound to: 8'b00000001 
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:403]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1117]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1247]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1247]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1264]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1264]
+WARNING: [Synth 8-151] case item 1'b0 is unreachable [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1264]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1310]
+WARNING: [Synth 8-151] case item 1'b0 is unreachable [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1310]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1310]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1487]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1487]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1499]
+WARNING: [Synth 8-151] case item 1'b0 is unreachable [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1499]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1499]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1585]
+WARNING: [Synth 8-151] case item 1'b0 is unreachable [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1585]
+WARNING: [Synth 8-151] case item 1'b0 is unreachable [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1585]
+WARNING: [Synth 8-151] case item 1'b0 is unreachable [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1585]
+WARNING: [Synth 8-151] case item 1'b0 is unreachable [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1585]
+WARNING: [Synth 8-151] case item 1'b0 is unreachable [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1585]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1629]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1629]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1737]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1768]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1838]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1838]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1846]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1846]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1861]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1861]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1886]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1886]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma parallel_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1903]
+INFO: [Synth 8-3536] HDL ADVISOR - Pragma full_case detected. Simulation mismatch may occur [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1903]
+INFO: [Synth 8-4471] merging register 'trace_valid_reg' into 'do_waitirq_reg' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1453]
+INFO: [Synth 8-256] done synthesizing module 'picorv32' (3#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:62]
+WARNING: [Synth 8-350] instance 'picorv32_core' of module 'picorv32' requires 27 connections, but only 22 given [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:2668]
+INFO: [Synth 8-256] done synthesizing module 'picorv32_axi' (4#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:2511]
+WARNING: [Synth 8-350] instance 'cpu' of module 'picorv32_axi' requires 32 connections, but only 22 given [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:77]
+INFO: [Synth 8-256] done synthesizing module 'top' (5#1) [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:2]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1114.695 ; gain = 182.309 ; free physical = 5262 ; free virtual = 13493
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1114.695 ; gain = 182.309 ; free physical = 5262 ; free virtual = 13493
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1122.691 ; gain = 190.305 ; free physical = 5262 ; free virtual = 13493
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Synth 8-4471] merging register 'instr_waitirq_reg' into 'instr_retirq_reg' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:870]
+INFO: [Synth 8-4471] merging register 'compressed_instr_reg' into 'instr_retirq_reg' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:890]
+INFO: [Synth 8-4471] merging register 'instr_setq_reg' into 'instr_getq_reg' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1088]
+INFO: [Synth 8-4471] merging register 'instr_maskirq_reg' into 'instr_getq_reg' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1089]
+INFO: [Synth 8-4471] merging register 'instr_timer_reg' into 'instr_getq_reg' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1090]
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/picorv32.v:1226]
+INFO: [Synth 8-5546] ROM "cpu_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "reg_op1" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1150.738 ; gain = 218.352 ; free physical = 5236 ; free virtual = 13467
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               36 Bit    Registers := 1     
+	               32 Bit    Registers := 39    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 134   
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 23    
+	   8 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 7     
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   9 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	   9 Input      1 Bit        Muxes := 12    
+	   8 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 9     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module delay4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
+Module delay4__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+Module delay4__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 4     
+Module delay4__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+Module delay4__parameterized3 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 4     
+Module delay4__parameterized4 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+Module delay4__parameterized5 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 4     
+Module delay4__parameterized6 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+Module delay4__parameterized7 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+Module delay4__parameterized8 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+Module picorv32_axi_adapter 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module picorv32 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               36 Bit    Registers := 1     
+	               32 Bit    Registers := 15    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 82    
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 23    
+	   8 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 7     
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   9 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 21    
+	   8 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 9     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1210.746 ; gain = 278.359 ; free physical = 5182 ; free virtual = 13413
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'delay_mem_axi_araddr/q1_reg[31:0]' into 'delay_mem_axi_awaddr/q1_reg[31:0]' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:112]
+INFO: [Synth 8-4471] merging register 'delay_mem_axi_araddr/q2_reg[31:0]' into 'delay_mem_axi_awaddr/q2_reg[31:0]' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:113]
+INFO: [Synth 8-4471] merging register 'delay_mem_axi_araddr/q3_reg[31:0]' into 'delay_mem_axi_awaddr/q3_reg[31:0]' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:114]
+INFO: [Synth 8-4471] merging register 'delay_mem_axi_araddr/out_reg[31:0]' into 'delay_mem_axi_awaddr/out_reg[31:0]' [/home/spsur2/smc_rv/smc_rv.srcs/sources_1/imports/picorv32/scripts/vivado/tabtest.v:115]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1218.746 ; gain = 286.359 ; free physical = 5170 ; free virtual = 13401
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1218.746 ; gain = 286.359 ; free physical = 5170 ; free virtual = 13401
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: 
++------------+-------------+-----------+----------------------+---------------+---------------------+
+|Module Name | RTL Object  | Inference | Size (Depth x Width) | Primitives    | Hierarchical Name   | 
++------------+-------------+-----------+----------------------+---------------+---------------------+
+|top         | cpuregs_reg | Implied   | 32 x 32              | RAM32M x 12   | top/picorv32/ram__1 | 
++------------+-------------+-----------+----------------------+---------------+---------------------+
+
+Note: The table above shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the Distributed RAM name as it appears in the hierarchical module and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_rs2_reg[0] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[11] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_rs2_reg[1] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[1] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_rs2_reg[2] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[2] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_rs2_reg[4] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[4] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_rs2_reg[3] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[3] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /\decoded_imm_j_reg[0] )
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[15] ' (FDE) to '\cpu/picorv32_core /\decoded_rs1_reg[0] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[16] ' (FDE) to '\cpu/picorv32_core /\decoded_rs1_reg[1] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[17] ' (FDE) to '\cpu/picorv32_core /\decoded_rs1_reg[2] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[18] ' (FDE) to '\cpu/picorv32_core /\decoded_rs1_reg[3] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[19] ' (FDE) to '\cpu/picorv32_core /\decoded_rs1_reg[4] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[20] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[21] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[21] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[22] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[22] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[23] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[23] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[24] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[24] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[25] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[25] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[26] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[26] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[27] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[27] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[28] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[28] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[29] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[29] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[30] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\decoded_imm_j_reg[30] ' (FDE) to '\cpu/picorv32_core /\decoded_imm_j_reg[31] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /do_waitirq_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /instr_getq_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /instr_retirq_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /alu_wait_2_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /\cpu_state_reg[4] )
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /pcpi_timeout_reg' (FDRE) to '\cpu/picorv32_core /\eoi_reg[0] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[0] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[1] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[2] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[3] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[4] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[5] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[6] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[7] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[8] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[9] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[10] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[11] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[12] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[13] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[14] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[15] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[16] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[17] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[18] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[19] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[20] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[21] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[22] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[23] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[24] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[25] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[26] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[27] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[28] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[29] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\eoi_reg[30] ' (FDRE) to '\cpu/picorv32_core /\eoi_reg[31] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /\eoi_reg[31] )
+INFO: [Synth 8-3886] merging instance '\cpu/picorv32_core /\mem_addr_reg[0] ' (FDE) to '\cpu/picorv32_core /\mem_addr_reg[1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /\mem_addr_reg[1] )
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_arprot/q1_reg[0] ' (FD) to '\delay_mem_axi_arprot/q1_reg[1] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_arprot/q1_reg[1] ' (FD) to '\delay_mem_axi_awprot/q1_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/q1_reg[0] ' (FD) to '\delay_mem_axi_awprot/q1_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/q1_reg[1] ' (FD) to '\delay_mem_axi_awprot/q1_reg[2] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\delay_mem_axi_awprot/q1_reg[2] )
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_arprot/q2_reg[0] ' (FD) to '\delay_mem_axi_awprot/q1_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_arprot/q2_reg[1] ' (FD) to '\delay_mem_axi_awprot/q1_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/q2_reg[0] ' (FD) to '\delay_mem_axi_awprot/q1_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/q2_reg[1] ' (FD) to '\delay_mem_axi_awprot/q1_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/q2_reg[2] ' (FD) to '\delay_mem_axi_awprot/q1_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_arprot/q3_reg[0] ' (FD) to '\delay_mem_axi_awprot/q3_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_arprot/q3_reg[1] ' (FD) to '\delay_mem_axi_awprot/q3_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/q3_reg[0] ' (FD) to '\delay_mem_axi_awprot/q3_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/q3_reg[1] ' (FD) to '\delay_mem_axi_awprot/q3_reg[2] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_arprot/out_reg[0] ' (FD) to '\delay_mem_axi_awprot/out_reg[1] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_arprot/out_reg[1] ' (FD) to '\delay_mem_axi_awprot/out_reg[1] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/out_reg[0] ' (FD) to '\delay_mem_axi_awprot/out_reg[1] '
+INFO: [Synth 8-3886] merging instance '\delay_mem_axi_awprot/out_reg[1] ' (FD) to '\delay_mem_axi_awprot/out_reg[2] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cpu/picorv32_core /latched_compr_reg)
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[0] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[1] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[2] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[3] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[4] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[5] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[6] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[7] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[8] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[9] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[10] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[11] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[12] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[13] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[14] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[15] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[16] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[17] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[18] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[19] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[20] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[21] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[22] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[23] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[24] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[25] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[26] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[27] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Synth 8-3886] merging instance '\delay_eoi/q1_reg[28] ' (FD) to '\delay_eoi/q1_reg[31] '
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\delay_mem_axi_awprot/q1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\delay_mem_axi_awprot/q1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\delay_mem_axi_awprot/q1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\delay_mem_axi_awprot/q1_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (instr_getq_reg) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (instr_retirq_reg) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\cpu_state_reg[4] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (alu_wait_2_reg) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (latched_compr_reg) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[30] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[29] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[28] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[27] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[26] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[25] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[24] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[23] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[22] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[21] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[20] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[0] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[31] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[30] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[29] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[28] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[27] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[26] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[25] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[24] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[23] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[22] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[21] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[20] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[19] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[18] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[17] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[16] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[15] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[14] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[13] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[12] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[11] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[10] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[9] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[8] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[7] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[6] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[5] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[4] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[3] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[2] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[1] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\alu_shl_reg[0] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (do_waitirq_reg) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (instr_ecall_ebreak_reg) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (pcpi_timeout_reg) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\mem_addr_reg[1] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\mem_addr_reg[0] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (pcpi_valid_reg) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_rs2_reg[0] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_rs2_reg[1] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_rs2_reg[2] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_rs2_reg[4] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_rs2_reg[3] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[15] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[16] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[17] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[18] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\decoded_imm_j_reg[19] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[0] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[31] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[1] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[2] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[3] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[4] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[5] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[6] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[7] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[8] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[9] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[10] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[11] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[12] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[13] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[14] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[15] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[16] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[17] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[18] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[19] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[20] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[21] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[22] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[23] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[24] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[25] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[26] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[27] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[28] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[29] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\eoi_reg[30] ) is unused and will be removed from module picorv32.
+WARNING: [Synth 8-3332] Sequential element (\delay_mem_axi_arprot/q1_reg[0] ) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (\delay_irq/q1_reg[31] ) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (\delay_irq/q1_reg[30] ) is unused and will be removed from module top.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1254.723 ; gain = 322.336 ; free physical = 5130 ; free virtual = 13361
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1254.723 ; gain = 322.336 ; free physical = 5130 ; free virtual = 13361
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1254.723 ; gain = 322.336 ; free physical = 5130 ; free virtual = 13361
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register:
++------------+----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                         | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|top         | delay_resetn/out_reg[0]          | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | delay_trap/out_reg[0]            | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | delay_mem_axi_awvalid/out_reg[0] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | delay_mem_axi_awready/out_reg[0] | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | delay_mem_axi_awaddr/out_reg[31] | 4      | 30    | NO           | NO                 | YES               | 30     | 0       | 
+|top         | delay_mem_axi_wvalid/out_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | delay_mem_axi_wready/out_reg[0]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | delay_mem_axi_wdata/out_reg[31]  | 4      | 32    | NO           | NO                 | YES               | 32     | 0       | 
+|top         | delay_mem_axi_wstrb/out_reg[3]   | 4      | 4     | NO           | NO                 | YES               | 4      | 0       | 
+|top         | delay_mem_axi_bvalid/out_reg[0]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | delay_mem_axi_bready/out_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | delay_mem_axi_arvalid/out_reg[0] | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | delay_mem_axi_arready/out_reg[0] | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | delay_mem_axi_arprot/out_reg[2]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | delay_mem_axi_rvalid/out_reg[0]  | 4      | 1     | NO           | YES                | YES               | 1      | 0       | 
+|top         | delay_mem_axi_rready/out_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|top         | delay_mem_axi_rdata/out_reg[31]  | 4      | 32    | NO           | YES                | YES               | 32     | 0       | 
++------------+----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    83|
+|3     |LUT1   |   162|
+|4     |LUT2   |   119|
+|5     |LUT3   |    98|
+|6     |LUT4   |   185|
+|7     |LUT5   |   199|
+|8     |LUT6   |   433|
+|9     |RAM32M |    12|
+|10    |SRL16E |   111|
+|11    |FDRE   |   742|
+|12    |FDSE   |    21|
+|13    |IBUF   |    39|
+|14    |OBUF   |   144|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------+-----------------------+------+
+|      |Instance                |Module                 |Cells |
++------+------------------------+-----------------------+------+
+|1     |top                     |                       |  2349|
+|2     |  cpu                   |picorv32_axi           |  1892|
+|3     |    axi_adapter         |picorv32_axi_adapter   |     7|
+|4     |    picorv32_core       |picorv32               |  1871|
+|5     |  delay_mem_axi_arprot  |delay4__parameterized5 |     2|
+|6     |  delay_mem_axi_arready |delay4                 |     3|
+|7     |  delay_mem_axi_arvalid |delay4_0               |     2|
+|8     |  delay_mem_axi_awaddr  |delay4__parameterized0 |    60|
+|9     |  delay_mem_axi_awready |delay4_1               |     3|
+|10    |  delay_mem_axi_awvalid |delay4_2               |     2|
+|11    |  delay_mem_axi_bready  |delay4_3               |     2|
+|12    |  delay_mem_axi_bvalid  |delay4_4               |     4|
+|13    |  delay_mem_axi_rdata   |delay4__parameterized6 |   103|
+|14    |  delay_mem_axi_rready  |delay4_5               |     2|
+|15    |  delay_mem_axi_rvalid  |delay4_6               |     4|
+|16    |  delay_mem_axi_wdata   |delay4__parameterized2 |    64|
+|17    |  delay_mem_axi_wready  |delay4_7               |     3|
+|18    |  delay_mem_axi_wstrb   |delay4__parameterized3 |     8|
+|19    |  delay_mem_axi_wvalid  |delay4_8               |     2|
+|20    |  delay_resetn          |delay4_9               |     7|
+|21    |  delay_trap            |delay4_10              |     2|
++------+------------------------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 393 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1264.879 ; gain = 240.574 ; free physical = 5121 ; free virtual = 13352
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1264.879 ; gain = 332.492 ; free physical = 5121 ; free virtual = 13352
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 134 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+194 Infos, 111 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1396.164 ; gain = 392.438 ; free physical = 5069 ; free virtual = 13300
+report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.22 . Memory (MB): peak = 1428.188 ; gain = 0.000 ; free physical = 5066 ; free virtual = 13298
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 26 16:53:22 2019...
